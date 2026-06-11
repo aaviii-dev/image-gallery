@@ -67,7 +67,7 @@ const App = () => {
         </div>
       </div>
 
-      {/* Header */}
+      
       <div className="relative z-10 sticky top-0 backdrop-blur-md bg-black/50 border-b border-white/10">
         <div className="container mx-auto px-6 py-5">
           <div className="flex justify-between items-center">
@@ -91,7 +91,7 @@ const App = () => {
         </div>
       </div>
 
-      {/* Main Content */}
+     
       <div className="relative z-10 container mx-auto px-6 py-12">
         {error && (
           <div className="bg-red-500/10 border border-red-500/20 rounded-xl p-4 mb-8 text-center">
@@ -127,7 +127,6 @@ const App = () => {
           </div>
         )}
 
-        {/* Simple Loading Overlay */}
         {loading && userData.length > 0 && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
             <div className="bg-white/10 rounded-xl p-6 text-center">
